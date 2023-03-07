@@ -7,7 +7,7 @@ Resolução de exercicios sobre ALGORITMOS CONDICIONAIS e ALGORITMOS ESTRUTURAS 
 <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)</a>
 
 ## Prévia screenshot
-![img](https://github.com/Samkuran/Logica_de_programacao/screen.png)
+![img](screen.png)
 
 
 

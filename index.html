@@ -98,7 +98,43 @@
                 <label class="form-label"> 
                     08) Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente.
                 </label>
-                <input id="ac08" type="number" class="form-control mb-1" required placeholder="em contruçao, aguarde">
+                <input id="ac08a" type="number" class="form-control mb-1" required>
+                <input id="ac08b" type="number" class="form-control mb-1" required>
+                <input id="ac08c" type="number" class="form-control mb-1" required>
+                <button class="btn btn-primary">TESTAR</button>
+            </form>
+            <br>
+
+            <form class="form-control" onsubmit="ac_09()">
+                <label class="form-label"> 
+                    09) Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas: <br>
+                    ● para homens: (72.7 * h) – 58 <br>
+                    ● para mulheres: (62.1 * h) – 44.7
+                </label>
+                <label for="ac09">Altura</label>
+                <input id="ac09" type="text" class="form-control mb-1" required placeholder="Altura em metros">
+                <label for="sexoac09">Sexo</label>
+                <select name="" id="sexoac09">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+                <button class="btn btn-primary">TESTAR</button>
+            </form>
+            <br>
+
+            <form class="form-control" onsubmit="ac_10()">
+                <label class="form-label"> 
+                    10) O IMC – Indice de Massa Corporal é um critério da Organização Mundial de Saúde para dar uma indicação sobre a condição de peso de uma pessoa adulta. A fórmula é IMC = peso / ( altura )2. Elabore um algoritmo que leia o peso e a altura de um adulto e mostre sua condição de acordo com a tabela abaixo.
+                    </label>
+                <ul>
+                    IMC em adultos - Condição
+                    <li>Abaixo de 18,5 Abaixo do peso</li>
+                    <li>Entre 18,5 e 25 Peso normal</li>
+                    <li>Entre 25 e 30 Acima do peso</li>
+                    <li>Acima de 30 obeso</li>
+                </ul>
+                <input id="ac10a" type="text" class="form-control mb-1" required placeholder="Insira sua Altura">
+                <input id="ac10b" type="text" class="form-control mb-1" required placeholder="Insira seu Peso">
                 <button class="btn btn-primary">TESTAR</button>
             </form>
             <br>

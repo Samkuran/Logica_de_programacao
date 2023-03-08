@@ -83,6 +83,61 @@ function ac_07() {
     }
 }
 
+function ac_08(){
+   
+    let a = document.getElementById("ac08a").value;
+    let b = document.getElementById("ac08b").value;
+    let c = document.getElementById("ac08c").value;
+    let number = [`${a}`, `${b}`, `${c}`];
+    
+    let numberDesc = number.sort(function(a, b) {
+        return b - a;
+    });
+   
+    if (a != b && b != c ){
+       
+        alert ("Seus numeros são " + numberDesc);
+    
+    } else {
+        alert (`Tente números diferentes`);
+    }
+}
+
+function ac_09() {
+    let sexo = document.getElementById("sexoac09");
+    let altura = parseFloat(document.getElementById("ac09").value.replace(",", "."));
+
+    if (Number.isNaN(altura)) {
+        alert ("Altura inválida. Por favor digite um número válido.");
+      } else if (sexo.value == "masculino"){
+        let peso = (altura * 72.7) - 58
+        alert (`Seu peso ideal é ${peso.toFixed(2)} Kg`);
+    } else if (sexo.value == "feminino") {
+        let peso = (altura * 62.1) - 44.7
+        alert (`Seu peso ideal é ${peso.toFixed(2)} Kg`);
+    }  
+}
+
+function ac_10(){
+    let altura =  parseFloat(document.getElementById("ac10a").value.replace(",", "."));
+    let peso =  parseFloat(document.getElementById("ac10b").value.replace(",", "."));
+    let imc = peso / (altura*altura)
+
+    if (Number.isNaN(altura)) {
+        alert ("Altura inválida. Por favor digite um número válido.");
+    } else if (Number.isNaN(peso)) {
+        alert ("Peso inválido. Por favor digite um número válido.");
+    } else if (imc <= 18.5){
+        alert(`Voce está Abaixo do peso.`);
+    } else if (imc > 18.5 && imc < 25){
+        alert(`Voce está com Peso normal.`);
+    } else if (imc >= 25 && imc <= 30){
+        alert(`Voce está Acima do peso.`);
+    } else {
+        alert(`Voce está Obeso.`);
+    }
+} 
+
 //ALGORITMOS REPETIÇÃO
 
 

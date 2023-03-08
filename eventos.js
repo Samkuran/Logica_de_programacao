@@ -41,6 +41,48 @@ function ac_03() {
     }
 }
 
+function ac_04() {
+    let a = +document.getElementById("ac04a").value;
+    let b = +document.getElementById("ac04b").value;
+
+    if (a == b){
+        alert(`A soma de ${a}+${b} é igual a ${a + b}`);
+    } else {
+        alert(`A multiplicaçao de ${a}x${b} é igual a ${a * b}`);
+    }
+}
+
+function ac_05() {
+    let n = +document.getElementById("ac05").value;
+
+    if ( n >= 0) {
+        alert (`${n} x 2 = ${n*2}`);
+    } if (n < 0) {
+        alert (`${n} x 3 = ${n*3}`);
+    }
+}
+
+function ac_06(){
+    let a = document.getElementById("ac06a").value;
+    let b = document.getElementById("ac06b").value;
+
+    if ( a === b) {
+        alert ("Seus valores são iguais, portanto, VERDADEIRO");
+    } if ( a !== b) {
+        alert ("Seus valores são diferentes, portanto, FALSO");
+    }
+}
+
+function ac_07() {
+    let n = +document.getElementById("ac07").value;
+
+    if (n % 2 == 0){ 
+        alert (`Seu número PAR ${n} + 5 é igual a ${n+5}`);
+    } else {
+        alert(`Seu número IMPAR ${n} + 8 é igual a ${n+8}`);
+    }
+}
+
 //ALGORITMOS REPETIÇÃO
 
 
